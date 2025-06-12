@@ -1,4 +1,4 @@
-from typing_extensions import TypedDict
+from typing_extensions import TypedDict, List
 from langgraph.graph.message import add_messages
 from typing import Annotated
 
@@ -13,4 +13,4 @@ class State(TypedDict):
         llm (object): The language model used for generating responses.
         user_input (str): The input provided by the user.
     """
-    messages: Annotated[list, add_messages]  # type: ignore    
+    messages: Annotated[List, add_messages]  # type: ignore    
