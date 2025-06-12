@@ -1,1 +1,1 @@
-# genai-chatbot
+# Agentic AI Chatbot
